@@ -3,19 +3,19 @@ pub fn run() {
   println!("Hello from the print.rs file");
 
   // Basic Formatting
-  println!("{} is from {}", "Brad", "Mass");
+  println!("{} is from {}", "Ferdian", "Ahmad");
 
   // Positional Arguments
   println!(
     "{0} is from {1} and {0} likes to {2}",
-    "Brad", "Mass", "code"
+    "Ferdian", "Ahmad", "code"
   );
 
   // Named Arguments
   println!(
     "{name} likes to play {activity}",
-    name = "John",
-    activity = "Baseball"
+    name = "Ferdian",
+    activity = "Playstation"
   );
 
   // Placeholder traits

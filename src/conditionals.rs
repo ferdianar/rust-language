@@ -7,11 +7,11 @@ pub fn run() {
 
   // If/Else
   if age >= 21 && check_id || knows_person_of_age {
-    println!("Bartender: What would you like to drink?");
+    println!("Ferdian: What would you like to drink?");
   } else if age < 21 && check_id {
-    println!("Bartender: Sorry, you have to leave");
+    println!("Ferdian: Sorry, you have to leave");
   } else {
-    println!("Bartender: I'll need to see your ID");
+    println!("Ferdian: I'll need to see your ID");
   }
 
   // Shorthand If

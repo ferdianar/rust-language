@@ -1,7 +1,7 @@
 // Functions - Used to store blocks of code for re-use
 
 pub fn run() {
-  greeting("Hello", "Jane");
+  greeting("Hello", "Ferdian");
 
   // Bind function values to variables
   let get_sum = add(5, 5);

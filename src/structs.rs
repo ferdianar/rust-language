@@ -1,15 +1,3 @@
-// Structs - Used to create custom data types
-
-// Traditional Struct
-// struct Color {
-//   red: u8,
-//   green: u8,
-//   blue: u8,
-// }
-
-// Tuple Struct
-// struct Color(u8, u8, u8);
-
 struct Person {
   first_name: String,
   last_name: String,
@@ -57,9 +45,9 @@ pub fn run() {
 
   // println!("Color: {} {} {}", c.0, c.1, c.2);
 
-  let mut p = Person::new("Mary", "Doe");
+  let mut p = Person::new("Ferdian", "Ahmad");
   println!("Person {}", p.full_name());
-  p.set_last_name("Williams");
+  p.set_last_name("Rozikin");
   println!("Person {}", p.full_name());
   println!("Person Tuple {:?}", p.to_tuple());
 }
